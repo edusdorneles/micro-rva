@@ -1,0 +1,54 @@
+.react-container {
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.react-container img {
+    width: 80px;
+    animation: rotation 5s infinite linear;
+    margin-bottom: 15px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.react-counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-counter {
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-medium);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.react-counter-minus {
+    background-color: red;
+}
+
+.react-counter-value {
+    background-color: cyan;
+}
+
+.react-counter-plus {
+    background-color: green;
+}
