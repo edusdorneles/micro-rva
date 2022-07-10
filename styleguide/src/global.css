@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #255c99;
+    --primary-color-dark: #1f4d7d;
+    --secondary-color: #262626;
+    --secondary-color-dark: #1f1f1f;
+    --font-size-small: 0.8rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.2rem;
+    --transition: all 0.2s ease-in-out;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px 20px;
+
+    @media (min-width: 768px) {
+        padding: 0px 40px;
+    }
+
+    @media (min-width: 992px) {
+        padding: 0px 80px;
+    }
+}

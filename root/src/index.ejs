@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Root Config</title>
+        <title>Micro RVA</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
 
         <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script>
         <meta
@@ -17,8 +23,8 @@
             {
                 "imports": {
                     "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
-                    "react": "https://unpkg.com/react@18/umd/react.development.js",
-                    "react-dom": "https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+                    "react": "https://unpkg.com/react@17/umd/react.development.js",
+                    "react-dom": "https://unpkg.com/react-dom@17/umd/react-dom.development.js"
                 }
             }
         </script>
@@ -33,7 +39,8 @@
             {
                 "imports": {
                     "@mfe/root-config": "//localhost:9000/mfe-root-config.js",
-                    "@mfe/navbar": "//localhost:8500/mfe-navbar.js"
+                    "@mfe/styleguide": "//localhost:8500/mfe-styleguide.js",
+                    "@mfe/navbar": "//localhost:8501/mfe-navbar.js"
                 }
             }
         </script>
