@@ -3,14 +3,12 @@ import { useState } from "react";
 import "@mfe/styleguide";
 import "./styles.css";
 
-import ReactLogo from "./assets/images/react.png";
-
 const Root = (props) => {
     const [counter, setCounter] = useState(0);
 
     return (
         <div className="react-container">
-            <img src={ReactLogo} alt="React logo" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React logo" />
 
             <div className="react-counter-container">
                 <div className="react-counter react-counter-minus" onClick={() => setCounter(counter - 1)}>
