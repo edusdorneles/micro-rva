@@ -52,9 +52,9 @@ export default defineComponent({
 }
 
 .vue-container img {
-    width: 80px;
+    width: 180px;
     animation: rotation 5s infinite linear;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
 }
 
 @keyframes rotation {
@@ -74,9 +74,10 @@ export default defineComponent({
 
 .vue-counter {
     border-radius: var(--border-radius);
-    font-size: var(--font-size-medium);
-    width: 25px;
-    height: 25px;
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    width: 55px;
+    height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
