@@ -1,0 +1,19 @@
+<div class="angular-container">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png?20160527092314" alt="Angular Logo" />
+
+  <div class="angular-counter-container">
+      <div class="angular-counter angular-counter-minus" (click)="decrement()">
+          -
+      </div>
+
+      <div class="angular-counter angular-counter-value" (click)="reset()">
+          {{counter}}
+      </div>
+
+      <div class="angular-counter angular-counter-plus" (click)="increment()">
+          +
+      </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
