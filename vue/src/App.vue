@@ -1,32 +1,28 @@
 <template>
     <div className="vue-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue logo"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue logo" />
 
         <div className="vue-counter-container">
-            <div className="vue-counter vue-counter-minus" @click="decrement">
-                -
-            </div>
+            <div className="vue-counter vue-counter-minus" @click="decrement">-</div>
 
             <div className="vue-counter vue-counter-value" @click="reset">
-                {{counter}}
+                {{ counter }}
             </div>
 
-            <div className="vue-counter vue-counter-plus" @click="increment">
-                +
-            </div>
+            <div className="vue-counter vue-counter-plus" @click="increment">+</div>
         </div>
     </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 
 export default defineComponent({
-    name: 'App',
+    name: "App",
     data() {
         return {
             counter: 0
-        }
+        };
     },
     methods: {
         increment() {
@@ -38,7 +34,7 @@ export default defineComponent({
         reset() {
             this.counter = 0;
         }
-    },
+    }
 });
 </script>
 
@@ -92,11 +88,10 @@ export default defineComponent({
 }
 
 .vue-counter-value {
-    background-color: cyan;
+    background-color: var(--primary-color);
 }
 
 .vue-counter-plus {
     background-color: green;
 }
-
 </style>

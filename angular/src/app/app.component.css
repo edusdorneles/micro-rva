@@ -1,55 +1,55 @@
 .angular-container {
-  height: calc(100vh - 65px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .angular-container img {
-  width: 180px;
-  animation: rotation 5s infinite linear;
-  margin-bottom: 45px;
+    width: 180px;
+    animation: rotation 5s infinite linear;
+    margin-bottom: 45px;
 }
 
 @keyframes rotation {
-  from {
-      transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(359deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
 
 .angular-counter-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .angular-counter {
-  border-radius: var(--border-radius);
-  font-size: var(--font-size-large);
-  font-weight: bold;
-  width: 55px;
-  height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  font-weight: 600;
-  margin: 0px 5px;
-  cursor: pointer;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px 5px;
+    cursor: pointer;
 }
 
 .angular-counter-minus {
-  background-color: red;
+    background-color: red;
 }
 
 .angular-counter-value {
-  background-color: cyan;
+    background-color: var(--primary-color);
 }
 
 .angular-counter-plus {
-  background-color: green;
+    background-color: green;
 }

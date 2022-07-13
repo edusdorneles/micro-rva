@@ -47,7 +47,7 @@
 }
 
 .react-counter-value {
-    background-color: cyan;
+    background-color: var(--primary-color);
 }
 
 .react-counter-plus {
