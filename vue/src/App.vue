@@ -1,15 +1,15 @@
 <template>
-    <div className="vue-container">
+    <div class="vue-container">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue logo" />
 
-        <div className="vue-counter-container">
-            <div className="vue-counter vue-counter-minus" @click="decrement">-</div>
+        <div class="vue-counter-container">
+            <div class="vue-counter vue-counter-minus" @click="decrement">-</div>
 
-            <div className="vue-counter vue-counter-value" @click="reset">
+            <div class="vue-counter vue-counter-value" @click="reset">
                 {{ counter }}
             </div>
 
-            <div className="vue-counter vue-counter-plus" @click="increment">+</div>
+            <div class="vue-counter vue-counter-plus" @click="increment">+</div>
         </div>
     </div>
 </template>
