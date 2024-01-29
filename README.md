@@ -21,7 +21,7 @@ Além disto, é bom ter um editor para trabalhar com o código, como o <a href="
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/dududornelees/micro-rva.git
+$ git clone https://github.com/edusdorneles/micro-rva.git
 # Acesse a pasta do projeto no terminal
 $ cd micro-rva
 # Entre nas pastas e instale as dependências (root; styleguide; navbar; react; vue; angular)
